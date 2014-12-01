@@ -7,6 +7,6 @@
     <string name="lbl_beacon">Beacon</string>
     <string name="lbl_no_beacon">No Beacon found</string>
     <string name="lbl_searching">Searching</string>
-    <string name="msg_notification">Nave espacial capaz de, também, viajar no espaço.Semi-nova, usada apenas por um único timelord</string>
+    <string name="msg_notification">Nave espacial capaz de, também, viajar no tempo. Semi-nova, usada apenas por um único timelord</string>
 
 </resources>
