@@ -11,7 +11,7 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 
 import com.pogamadores.beaconwear.R;
-import com.pogamadores.beaconwear.ui.activity.MainActivity;
+import com.pogamadores.beaconwear.ui.activity.QRCodeActivity;
 
 public class BuyReceiver extends BroadcastReceiver {
     private static final int NOTIFICATION_ID = 12345;
@@ -30,7 +30,7 @@ public class BuyReceiver extends BroadcastReceiver {
         PendingIntent openIntent = PendingIntent.getActivity(
                 context,
                 0,
-                new Intent(context, MainActivity.class),
+                new Intent(context, QRCodeActivity.class),
                 PendingIntent.FLAG_UPDATE_CURRENT
         );
 

@@ -8,5 +8,8 @@
     <string name="lbl_no_beacon">No Beacon found</string>
     <string name="lbl_searching">Searching</string>
     <string name="msg_notification">Nave espacial capaz de, também, viajar no tempo. Semi-nova, usada apenas por um único timelord</string>
+    <string name="title_activity_qrcode">QRCodeActivity</string>
+    <string name="lbl_qr_code">QR Code</string>
+    <string name="lbl_qr_code_finish">Leve este QR Code até o caixa</string>
 
 </resources>
