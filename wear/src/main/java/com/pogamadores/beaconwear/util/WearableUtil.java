@@ -93,7 +93,6 @@ public class WearableUtil
                 .extend(builder)
                 .build();
 
-        fullNotification.defaults |= Notification.DEFAULT_SOUND;
         fullNotification.defaults |= Notification.DEFAULT_VIBRATE;
 
         NotificationManagerCompat manager = NotificationManagerCompat.from(context);
