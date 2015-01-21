@@ -21,7 +21,8 @@
             android:label="@string/app_name" >
         </activity>
 
-        <service android:name="com.pogamadores.beaconwear.service.ListenerService" >
+        <service android:name="com.pogamadores.beaconwear.service.ListenerService"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
             </intent-filter>
